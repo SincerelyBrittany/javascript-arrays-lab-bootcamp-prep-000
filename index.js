@@ -16,13 +16,13 @@ var kittens = ["Milo", "Otis", "Garfield"]; //define your array here
   // 2) Arrays destructivelyPrependKitten(name) prepends a kitten to the beginningof the kittens array:
   
  function destructivelyPrependKitten(name){
-      var appendKitten = kittens.unshift(name)
+      var appendKitten = kittens.unshift(name);
       return appendKitten;
  }
 
   // 3) Arrays destructivelyRemoveLastKitten() removes the last kitten from the kittens array:
   function destructivelyRemoveLastKitten(name){
-      var appendKitten = kittens.pop(name)
+      var appendKitten = kittens.pop(name);
       return appendKitten;
  }
 
@@ -30,7 +30,7 @@ var kittens = ["Milo", "Otis", "Garfield"]; //define your array here
   // 4) Arrays destructivelyRemoveFirstKitten() removes the First kitten from the kittens array:
   
     function destructivelyRemoveFirstKitten(name){
-      var appendKitten = kittens.shift(name)
+      var appendKitten = kittens.shift(name);
       return appendKitten;
  }
   
